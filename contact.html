@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Misty Mountain Bukidnon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL21vdGFybzdfZ3JlZW5fbW91bnRhaW5faWNvbl9zaWxob3VldHRlX21vbm90b25lX3NpbXBsZV9hZXN0aGV0aV80YjY5Mzk3NS1lOWE3LTRkZTItYmU3Mi02NGZiN2RhYjdkYzdfMi5qcGc.jpg" alt="Bukidnon Logo">
+                <span>Misty Mountain Bukidnon</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="food.html">Local Food</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header contact-header">
+        <div class="page-header-overlay"></div>
+        <div class="page-header-content">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <div class="section-header">
+                    <h2>Contact Information</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="info-cards">
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <h3>Location</h3>
+                        <p>Kibalabag, Malaybalay City</p>
+                        <p>Bukidnon, Philippines</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <h3>Phone</h3>
+                        <p>0954 982 5737</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">✉️</div>
+                        <h3>Email</h3>
+                        <p>info@mistymountain.ph</p>
+                        <p>reservations@mistymountain.ph</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">⏰</div>
+                        <h3>Operating Hours</h3>
+                        <p>Monday - Sunday</p>
+                        <p>6:00 AM - 8:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/MistyMountainHaven/about" class="social-link">Facebook</a>
+                        <a href="https://www.instagram.com/misty_mountainhaven/?hl=en" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+                <div class="section-header">
+                    <h2>Send Us a Message</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="reservation">Reservation Inquiry</option>
+                            <option value="general">General Information</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="complaint">Complaint</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="section-header">
+            <h2>Find Us Here</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15786.419288695485!2d125.1214!3d8.1847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32ff98d6e8c5e7b9%3A0x8a7b5c3d2e1f0a9b!2sMisty%20Mountain%2C%20Can-ayan%2C%20Malaybalay%20City%2C%20Bukidnon!5e0!3m2!1sen!2sph!4v1647895432100!5m2!1sen!2sph"
+                width="100%"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p class="map-note">📍 <strong>Misty Mountain</strong> - Can-ayan, Malaybalay City, Bukidnon, Philippines</p>
+        </div>
+    </section>
+
+   <!-- Creator section -->
+<section class="creator-section">
+  <div class="section-header">
+    <h2>Website Created By</h2>
+    <div class="underline"></div>
+  </div>
+
+  <div class="creator-grid">
+    <!-- Creator A -->
+    <div class="creator-card">
+      <div class="card-image">
+        <img src="floramaw.jpg" alt="Flordeliza Bayer">
+        <div class="card-overlay">
+          <a href="floramaw.jpg" class="overlay-link" onclick="openPopup('floramaw.jpg'); return false;">View</a>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>Flordeliza Bayer</h3>
+        <p>Coder</p>
+      </div>
+    </div>
+
+    <!-- Creator B -->
+    <div class="creator-card">
+      <div class="card-image">
+        <img src="jelbotoy.jpg" alt="Jelybeth Bojo">
+        <div class="card-overlay">
+          <a href="jelbotoy.jpg" class="overlay-link" onclick="openPopup('jelbotoy.jpg'); return false;">View</a>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>Jelybeth Bojo</h3>
+        <p>Designer</p>
+      </div>
+    </div>
+
+    <!-- Creator C -->
+    <div class="creator-card">
+      <div class="card-image">
+        <img src="will.jpg" alt="Williza Jamar">
+        <div class="card-overlay">
+          <a href="will.jpg" class="overlay-link" onclick="openPopup('will.jpg'); return false;">View</a>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>Williza Jamar</h3>
+        <p>Developer</p>
+      </div>
+    </div>
+
+    <!-- Creator D -->
+    <div class="creator-card">
+      <div class="card-image">
+        <img src="almoralde.jpg" alt="Almera Cuello">
+        <div class="card-overlay">
+          <a href="almoralde.jpg" class="overlay-link" onclick="openPopup('almoralde.jpg'); return false;">View</a>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>Almera Cuello</h3>
+        <p>Designer</p>
+      </div>
+    </div>
+
+    <!-- Creator E -->
+    <div class="creator-card">
+      <div class="card-image">
+        <img src="japet_dagaang.jpg" alt="Japet Dagaang">
+        <div class="card-overlay">
+          <a href="japet_dagaang.jpg" class="overlay-link" onclick="openPopup('japet_dagaang.jpg'); return false;">View</a>
+        </div>
+      </div>
+      <div class="card-content">
+        <h3>Japet Dagaang</h3>
+        <p>Photographer</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Popup -->
+<div id="imagePopup" class="popup">
+    <span class="close-btn" onclick="closePopup()">&times;</span>
+    <img id="popupImage">
+</div>
+<script>
+// Open popup
+// Open popup
+function openPopup(imgPath) {
+    const popup = document.getElementById("imagePopup");
+    const popupImg = document.getElementById("popupImage");
+    popupImg.src = imgPath;      // Show selected image
+    popup.style.display = "flex"; // Show popup
+}
+
+// Close popup
+function closePopup() {
+    document.getElementById("imagePopup").style.display = "none";
+}
+
+// Close popup when clicking outside the image
+document.getElementById('imagePopup').addEventListener('click', (e) => {
+    if (e.target.id === 'imagePopup') closePopup();
+});
+
+// Close popup when pressing Esc
+document.addEventListener('keydown', (e) => {
+    if (e.key === "Escape") closePopup();
+});
+</script>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="section-header">
+            <h2>Frequently Asked Questions</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3>What is the best time to visit?</h3>
+                <p>The best time to visit Misty Mountain is during the dry season (November to May) when the weather is most pleasant and the views are clearest.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do I need to make a reservation?</h3>
+                <p>While walk-ins are welcome, we highly recommend making a reservation, especially during weekends and holidays, to ensure availability.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Are there entrance fees?</h3>
+                <p>Yes, there is a minimal entrance fee. Please contact us for current rates and group discounts.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What should I bring?</h3>
+                <p>We recommend bringing warm clothing, comfortable shoes, sunscreen, insect repellent, and a camera to capture the beautiful scenery.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Misty Mountain Bukidnon</h3>
+                <p>Your gateway to nature's paradise</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="food.html">Local Food</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>Can-ayan, Malaybalay City</p>
+                <p>Bukidnon, Philippines</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Misty Mountain Bukidnon | Designed by Group 3 - Section 1A</p>
+        </div>
+    </footer>
+</body>
+</html>

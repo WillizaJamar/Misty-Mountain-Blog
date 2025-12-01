@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Misty Mountain Bukidnon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL21vdGFybzdfZ3JlZW5fbW91bnRhaW5faWNvbl9zaWxob3VldHRlX21vbm90b25lX3NpbXBsZV9hZXN0aGV0aV80YjY5Mzk3NS1lOWE3LTRkZTItYmU3Mi02NGZiN2RhYjdkYzdfMi5qcGc.jpg" alt="Bukidnon Logo">
+                <span>Misty Mountain Bukidnon</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="food.html">Local Food</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header gallery-header">
+        <div class="page-header-overlay"></div>
+        <div class="page-header-content">
+            <h1>Photo Gallery</h1>
+            <p>Explore the beauty of Misty Mountain through our lens</p>
+        </div>
+    </section>
+
+    <!-- Gallery Categories -->
+    <section class="gallery-categories">
+        <div class="section-header">
+            <h2>Explore Our Collection</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="category-tabs">
+            <button class="tab-btn active" data-category="all">All Photos</button>
+            <button class="tab-btn" data-category="landscape">Landscapes</button>
+            <button class="tab-btn" data-category="nature">Nature Trails</button>
+            <button class="tab-btn" data-category="activities">Activities</button>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="photo-gallery">
+        <div class="gallery-container">
+            <!-- Landscape Photos -->
+            <div class="photo-item" data-category="landscape">
+                <img src="https://cdns.app/wgsdkw2F/assets/image/properties/8d66c0daf3111dfe2266fd7fdb66bf62_1730179810.jpg" alt="Mountain View">
+                <div class="photo-overlay">
+                    <h3>Misty Mountain Peak</h3>
+                    <p>Breathtaking view from the summit</p>
+                </div>
+            </div>
+
+            <div class="photo-item" data-category="landscape">
+                <img src="mountain range.jpg" alt="Mountain Range">
+                <div class="photo-overlay">
+                    <h3>Mountain Range</h3>
+                    <p>Panoramic view of the highlands</p>
+                </div>
+            </div>
+
+            <div class="photo-item" data-category="landscape">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTDY6erCk-YLjuJth4P8VVBL5mzdwFYnaPCJ3GhNb1u6BOS4uig" alt="Foggy Morning">
+                <div class="photo-overlay">
+                    <h3>Foggy Morning</h3>
+                    <p>Early morning mist over the valley</p>
+                </div>
+            </div>
+
+            <!-- Nature Trails -->
+            <div class="photo-item" data-category="nature">
+                <img src="https://campsites.ph/uploads/images/campsite-195-misty-mountain-haven-b0f49e8e1f3cffff80edd5ebb5958d38.jpg" alt="Nature Trail">
+                <div class="photo-overlay">
+                    <h3>Grassy Trails</h3>
+                    <p>Perfect for peaceful walks</p>
+                </div>
+            </div>
+
+            <div class="photo-item" data-category="nature">
+                <img src="trail 2.jpg" alt="Forest Path">
+                <div class="photo-overlay">
+                    <h3>Haven Path</h3>
+                    <p>Explore the lush greenery</p>
+                </div>
+            </div>
+
+            <!-- Activities -->
+            <div class="photo-item" data-category="activities">
+                <img src="camp 1.jpg" alt="Camping">
+                <div class="photo-overlay">
+                    <h3>Camping Experience</h3>
+                    <p>Set up your tent under the stars</p>
+                </div>
+            </div>
+
+            <div class="photo-item" data-category="activities">
+                <img src="camp 2.jpg
+                " alt="Camping Site">
+                <div class="photo-overlay">
+                    <h3>Scenic Campsites</h3>
+                    <p>Perfect spots for overnight camping</p>
+                </div>
+            </div>
+
+            <!-- More Landscapes -->
+            <div class="photo-item" data-category="landscape">
+                <img src="sunset.jpg" alt="Sunset View">
+                <div class="photo-overlay">
+                    <h3>Golden Sunset</h3>
+                    <p>Beautiful sunset over the mountains</p>
+                </div>
+            </div>
+
+            <div class="photo-item" data-category="landscape">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRfBz1sAJKOjO7t3QAwEOR-QH6UOCPHERkGo-jCodugRo0kPr-k" alt="Morning Glory">
+                <div class="photo-overlay">
+                    <h3>Morning Glory</h3>
+                    <p>Sunrise breaks through the clouds</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit CTA -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Want to Experience This in Person?</h2>
+            <p>Plan your visit and create your own memories at Misty Mountain</p>
+            <a href="contact.html" class="btn">Book Your Visit</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Misty Mountain Bukidnon</h3>
+                <p>Your gateway to nature's paradise</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="food.html">Local Food</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>Can-ayan, Malaybalay City</p>
+                <p>Bukidnon, Philippines</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Misty Mountain Bukidnon | Designed by Group 3 - Section 1A</p>
+        </div>
+    </footer>
+
+    <script>
+        // Gallery filter functionality
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const photoItems = document.querySelectorAll('.photo-item');
+
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                tabBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const category = btn.getAttribute('data-category');
+
+                photoItems.forEach(item => {
+                    if (category === 'all') {
+                        item.style.display = 'block';
+                    } else {
+                        if (item.getAttribute('data-category') === category) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

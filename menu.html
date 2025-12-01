@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu - Misty Mountain Bukidnon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL21vdGFybzdfZ3JlZW5fbW91bnRhaW5faWNvbl9zaWxob3VldHRlX21vbm90b25lX3NpbXBsZV9hZXN0aGV0aV80YjY5Mzk3NS1lOWE3LTRkZTItYmU3Mi02NGZiN2RhYjdkYzdfMi5qcGc.jpg" alt="Bukidnon Logo">
+                <span>Misty Mountain Bukidnon</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="food.html" class="active">Local Food</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header menu-header">
+        <div class="page-header-overlay"></div>
+        <div class="page-header-content">
+            <h1>Our Complete Menu</h1>
+            <p>Savor authentic Bukidnon cuisine in the heart of the mountains</p>
+        </div>
+    </section>
+
+    <!-- Menu Categories -->
+    <section class="menu-categories">
+        <div class="section-header">
+            <h2>Browse Our Menu</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="category-tabs">
+            <button class="tab-btn active" data-category="all">All Items</button>
+            <button class="tab-btn" data-category="breakfast">Breakfast</button>
+            <button class="tab-btn" data-category="mains">Main Dishes</button>
+            <button class="tab-btn" data-category="beverages">Beverages</button>
+            <button class="tab-btn" data-category="snacks">Snacks & Desserts</button>
+        </div>
+    </section>
+
+    <!-- Menu Items -->
+    <section class="menu-section">
+        <div class="menu-container">
+
+            <!-- Breakfast Items -->
+            <div class="menu-item" data-category="breakfast">
+                <div class="menu-item-image">
+                    <img src="bangusilog foosd.jpg" alt="Breakfast Meal">
+                    <div class="menu-badge">Popular</div>
+                </div>
+                <div class="menu-item-content">
+                    <h3>Mountain Breakfast Platter</h3>
+                    <p class="menu-description">A hearty Bukidnon breakfast featuring garlic rice, fried egg, tender beef tapa, and fresh tomatoes. Served with our special vinegar dipping sauce.</p>
+                    <div class="menu-details">
+                        <span class="portion">Serves 1-2</span>
+                        <span class="price">₱180</span>
+                    </div>
+                    <div class="menu-tags">
+                        <span class="tag">Best Seller</span>
+                        <span class="tag">Filipino</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="breakfast">
+                <div class="menu-item-image">
+                    <img src="hotsilog food.jpg" alt="Champorado">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Hotsilog</h3>
+                    <p class="menu-description">A simple,kid-friendly option featuring pan-fried hotdogs, served alongside with garlic rice and a fried egg.</p>
+                    <div class="menu-details">
+                        <span class="portion">Serves 1</span>
+                        <span class="price">₱120</span>
+                    </div>
+                    <div class="menu-tags">
+                        <span class="tag">Traditional</span>
+                        <span class="tag">Sweet</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="mains">
+                <div class="menu-item-image">
+                    <img src="banana coated with sugar.jpg" alt="Pinaupong Manok">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Toffee Banana</h3>
+                    <p class="menu-description">Golden-fried bananas with a crunchy caramelized sugar shell.</p>
+                    <div class="menu-details">
+                        <span class="portion">Good for 3</span>
+                        <span class="price">₱150</span>
+                    </div>
+                    <div class="menu-tags">
+                        <span class="tag">Sweet</span>
+                        <span class="tag">Healthy</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Main Dishes -->
+            <div class="menu-item" data-category="mains">
+                <div class="menu-item-image">
+                    <img src="chikent food.jpg" alt="Pinaupong Manok">
+                    <div class="menu-badge">Chef Special</div>
+                </div>
+                <div class="menu-item-content">
+                    <h3>Garlic buttered Chicken</h3>
+                    <p class="menu-description">Juicy, tender chicken bites coated in savory parmesan and fresh roasted garlic.</p>
+                    <div class="menu-details">
+                        <span class="portion">Whole Chicken</span>
+                        <span class="price">₱450</span>
+                    </div>
+                    <div class="menu-tags">
+                        <span class="tag">Signature Dish</span>
+                        <span class="tag">Healthy</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="mains">
+                <div class="menu-item-image">
+                    <img src="adodobro.jpg" alt="Beef Bulalo">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Adobo</h3>
+                    <p class="menu-description">Tender chicken simmered in a savory, tangy sauce of soy sauce, vinegar, garlic, and bay leaves.</p>
+                    <div class="menu-details">
+                        <span class="portion">Good for 2-3</span>
+                        <span class="price">₱380</span>
+                    </div>
+                    <div class="menu-tags">
+                        <span class="tag">Comfort Food</span>
+                        <span class="tag">Soup</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="mains">
+                <div class="menu-item-image">
+                    <img src="lumpyadog.jpg" alt="Grilled Tilapia">
+                </div>
+                <div class="menu-item-content">
+                    <h3>LumpiaDog </h3>
+                    <p class="menu-description">A simple,kid-friendly option featuring pan-fried hotdogs, served alongside with lumpia and garlic rice.</p>
+                    <div class="menu-details">
+                        <span class="portion">1 Whole Fish</span>
+                        <span class="price">₱280</span>
+                    </div>
+                    <div class="menu-tags">
+                        <span class="tag">Grilled</span>
+                        <span class="tag">Fresh</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beverages -->
+            <div class="menu-item" data-category="beverages">
+                <div class="menu-item-image">
+                    <img src="tea time.jpg" alt="Bukidnon Coffee">
+                    <div class="menu-badge">Local Favorite</div>
+                </div>
+                <div class="menu-item-content">
+                    <h3> Haven Tea </h3>
+                    <p class="menu-description">Our signature house blend,a smooth, balanced, and aromatic cup of comfort,  crafted to provide a perfect escape.</p>
+                    <div class="menu-details">
+                        <span class="portion">Hot or Iced</span>
+                        <span class="price">₱80</span>
+                    </div>
+                    <div class="menu-tags">
+                        <span class="tag">Local Beans</span>
+                        <span class="tag">Organic</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="beverages">
+                <div class="menu-item-image">
+                    <img src="tirose.jpg" alt="Hot Chocolate">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Misty Combo</h3>
+                    <p class="menu-description">The ultimate breakfast combo-fresh, satisfying, and served with a hot cup of coffee to kickstart your day right.</p>
+                    <div class="menu-details">
+                        <span class="portion">12 oz</span>
+                        <span class="price">₱100</span>
+                    </div>
+                    <div class="menu-tags">
+                        <span class="tag">Premium Cacao</span>
+                        <span class="tag">Handcrafted</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="beverages">
+                <div class="menu-item-image">
+                    <img src="soda.jpg" alt="Soda">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Fresh Misty Soda</h3>
+                    <p class="menu-description">A Misty Sodalicious blends fina carbonation with a smooth, airy citrus essense , creating a refreshingly balanced drink with a clean, crisp finish. A refined sparkle for any moment.</p>
+                    <div class="menu-details">
+                        <span class="portion">16 oz</span>
+                        <span class="price">₱90</span>
+                    </div>
+                    <div class="menu-tags">
+                        <span class="tag">Fresh</span>
+                        <span class="tag">Vitamin C</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Snacks & Desserts -->
+            <div class="menu-item" data-category="snacks">
+                <div class="menu-item-image">
+                    <img src="binaki food.jpg" alt="Binaki">
+                    <div class="menu-badge">Must Try</div>
+                </div>
+                <div class="menu-item-content">
+                    <h3>Binaki (Sweet Corn Cake)</h3>
+                    <p class="menu-description">Traditional Bukidnon delicacy made from ground young corn, coconut milk, and sugar, wrapped in corn husks. A sweet, comforting treat!</p>
+                    <div class="menu-details">
+                        <span class="portion">3 pieces</span>
+                        <span class="price">₱60</span>
+                    </div>
+                    <div class="menu-tags">
+                        <span class="tag">Traditional</span>
+                        <span class="tag">Homemade</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="snacks">
+                <div class="menu-item-image">
+                    <img src="milktea food.jpg" alt="Strawberry Milkshake">
+                </div>
+                <div class="menu-item-content">
+                    <h3> Strawberry Creme Shake</h3>
+                    <p class="menu-description">A fresh strawberry milkshake. Refreshing, delicious, and satisfying.</p>
+                    <div class="menu-details">
+                        <span class="portion">Good for 2</span>
+                        <span class="price">₱150</span>
+                    </div>
+                    <div class="menu-tags">
+                        <span class="tag">Healthy</span>
+                        <span class="tag">Farm Fresh</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="snacks">
+                <div class="menu-item-image">
+                    <img src="pokie.jpg" alt="pokie">
+                </div>
+                <div class="menu-item-content">
+                    <h3>Misty Cookie</h3>
+                    <p class="menu-description">A homemade Cookie with chocolate drizzled with crushed cookie and a parsely leave. Simple, delicious, and satisfying snack.</p>
+                    <div class="menu-details">
+                        <span class="portion">3 Pieces</span>
+                        <span class="price">₱85</span>
+                    </div>
+                    <div class="menu-tags">
+                        <span class="tag">Quick Bite</span>
+                        <span class="tag">Energizing</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Special Note -->
+    <section class="menu-note-section">
+        <div class="menu-note-container">
+            <h2>🌿 Our Food Philosophy</h2>
+            <p>At Misty Mountain, we believe in serving fresh, locally-sourced ingredients from Bukidnon's rich agricultural lands. Most of our produce comes directly from nearby farms, ensuring quality and supporting our local community.</p>
+            <div class="allergen-info">
+                <p><strong>Allergen Information:</strong> Please inform our staff of any dietary restrictions or allergies. We're happy to accommodate vegetarian, vegan, and special dietary needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Ready to Taste the Mountains?</h2>
+            <p>Visit us today or make a reservation for your dining experience</p>
+            <a href="contact.html" class="btn">Make a Reservation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Misty Mountain Bukidnon</h3>
+                <p>Your gateway to nature's paradise</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="food.html">Local Food</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p>Can-ayan, Malaybalay City</p>
+                <p>Bukidnon, Philippines</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Misty Mountain Bukidnon | Designed by Group 3 - Section 1A</p>
+        </div>
+    </footer>
+
+    <script>
+        // Menu filter functionality
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const menuItems = document.querySelectorAll('.menu-item');
+
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                tabBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const category = btn.getAttribute('data-category');
+
+                menuItems.forEach(item => {
+                    if (category === 'all') {
+                        item.style.display = 'flex';
+                    } else {
+                        if (item.getAttribute('data-category') === category) {
+                            item.style.display = 'flex';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
